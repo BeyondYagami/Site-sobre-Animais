@@ -1,75 +1,60 @@
-body{
-    background-color: #f9f1e3;
-}
-
-h1 {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #9400D3;
 }
 
-.centralizar{
+header{
+    width: 100%;
+    background-color: #3B2619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.imagem-logo{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 0px;
+}
+
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #E3A252;
+    text-transform: arial;
+    padding: 10px 25px;
+    border-radius: 10px;
     text-align: center;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+.menu li a:hover{
+    border:1px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #7a7d24; /*#3d264c*/
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+body{
+    background-color: #F9F1E3;
 }
 
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
 
-.dropdown-content a:hover {  /*#100716*/ 
-    background-color: #b2b72f;
-}
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.logo{
-    width: 135px;
-}
 
-img{
-    border-radius: 10px;
-}
 
-.flex-container {
-    display: flex;
-    /*espaçamento entre as divs filhas*/
-    justify-content: space-between;
-    background-color: #FFF8DC;
-}
-
-.caes, .gatos, .vira-latas{
-    color: #a6aa3e;
-}
-
-.beneficios {
-    background: #f9f1e3;
-    padding: 20px;
-}
-
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 5px;
-}
-
-.imagembeneficios {
-    width: 50%;
-}
